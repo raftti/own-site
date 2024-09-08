@@ -1,0 +1,30 @@
+.wrapper {
+   margin-top: 40vh;
+}
+
+.title {
+    width: fit-content;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: "15px";
+}
+
+.contact-button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+    font-weight: 400;
+    color: var(--text-dark-gray);
+}
+
+.contact-button:hover {
+    transform: scale(1.25);
+    color: var(--text-light-blue);
+}
